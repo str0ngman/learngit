@@ -1,0 +1,13 @@
+重要命令 
+版本回退
+
+git reset --hard HEAD^ 1级
+
+git reset --heard HEAD^100 100级
+想去哪个直接输入字符密码前5个字符
+
+git reflog 查询记录
+
+.文件夹就是工作区
+
+git checkout -- readme.txt
