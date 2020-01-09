@@ -11,3 +11,17 @@ git reflog 查询记录
 .文件夹就是工作区
 
 git checkout -- readme.txt
+
+
+远程仓库 相关
+
+1. 先制造key 
+
+$ git push origin master
+ssh-keygen -t rsa -C "116357931@qq.com"
+
+2. 关联空仓库和本地路径
+$ git remote add origin git@github.com:michaelliao/learngit.git
+
+3. 推库到远端
+$ git push -u origin master
